@@ -97,6 +97,10 @@ local scripts = {
         name = "Survive Lava for Brainrots",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Survive-Lava-for-Brainrot/refs/heads/main/Survive%20Lava%20for%20Brainrot"
     },
+    [77411063291332] = {
+        name = "Steal a Brainrot or DIE",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/Steal-a-Brainrot-or-DIE/refs/heads/main/Steal%20a%20Brainrot%20or%20DIE"
+    },
 }
 
 local placeId = game.PlaceId
