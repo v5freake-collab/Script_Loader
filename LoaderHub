@@ -101,13 +101,17 @@ local scripts = {
         name = "Steal a Brainrot or DIE",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Steal-a-Brainrot-or-DIE/refs/heads/main/Steal%20a%20Brainrot%20or%20DIE"
     },
+    [75137452875005] = {
+        name = "Search Trash for Brainrot",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/Search-Trash-for-Brainrot/refs/heads/main/Search%20Trash%20for%20Brainrot"
+    },
 }
 
 local placeId = game.PlaceId
 local entry   = scripts[placeId]
 
 if entry then
-    print("[v53k Loader] ✅ Matched: " .. entry.name)
+    print("[v53k Loader] â Matched: " .. entry.name)
     print("[v53k Loader] Loading script...")
 
     local ok, err = pcall(function()
@@ -115,11 +119,11 @@ if entry then
     end)
 
     if ok then
-        print("[v53k Loader] ✅ Script loaded successfully: " .. entry.name)
+        print("[v53k Loader] â Script loaded successfully: " .. entry.name)
     else
-        warn("[v53k Loader] ❌ Script errored: " .. tostring(err))
+        warn("[v53k Loader] â Script errored: " .. tostring(err))
     end
 else
-    warn("[v53k Loader] ❌ No script found for Place ID: " .. tostring(placeId))
+    warn("[v53k Loader] â No script found for Place ID: " .. tostring(placeId))
     warn("[v53k Loader] This game is not in the script list.")
 end
