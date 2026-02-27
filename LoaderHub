@@ -105,6 +105,10 @@ local scripts = {
         name = "Search Trash for Brainrot",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Search-Trash-for-Brainrot/refs/heads/main/Search%20Trash%20for%20Brainrot"
     },
+    [3221241066] = {
+        name = "Deadzone Classic",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/deadzone-classic/refs/heads/main/deadzone%20classic"
+    },
 }
 
 local placeId = game.PlaceId
