@@ -109,13 +109,17 @@ local scripts = {
         name = "Deadzone Classic",
         url  = "https://raw.githubusercontent.com/v5freake-collab/deadzone-classic/refs/heads/main/deadzone%20classic"
     },
+    [105328464768317] = {
+        name = "Steal Lucky Blocks from Lava",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/steal-lucky_blocks-from-Lava/refs/heads/main/Steal%20Lucky%20Blocks%20from%20Lava"
+    },
 }
 
 local placeId = game.PlaceId
 local entry   = scripts[placeId]
 
 if entry then
-    print("[v53k Loader] â Matched: " .. entry.name)
+    print("[v53k Loader] ✔ Matched: " .. entry.name)
     print("[v53k Loader] Loading script...")
 
     local ok, err = pcall(function()
@@ -123,11 +127,11 @@ if entry then
     end)
 
     if ok then
-        print("[v53k Loader] â Script loaded successfully: " .. entry.name)
+        print("[v53k Loader] ✔ Script loaded successfully: " .. entry.name)
     else
-        warn("[v53k Loader] â Script errored: " .. tostring(err))
+        warn("[v53k Loader] ✖ Script errored: " .. tostring(err))
     end
 else
-    warn("[v53k Loader] â No script found for Place ID: " .. tostring(placeId))
+    warn("[v53k Loader] ✖ No script found for Place ID: " .. tostring(placeId))
     warn("[v53k Loader] This game is not in the script list.")
 end
