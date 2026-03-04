@@ -109,14 +109,14 @@ local scripts = {
         name = "Deadzone Classic",
         url  = "https://raw.githubusercontent.com/v5freake-collab/deadzone-classic/refs/heads/main/deadzone%20classic"
     },
-    [116294134389652] = {
+    ["116294134389652"] = {
         name = "Moon Incremental",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Moon_Incremental/refs/heads/main/Moon_Incremental"
     },
 }
 
 local placeId = game.PlaceId
-local entry   = scripts[placeId]
+local entry   = scripts[placeId] or scripts[tostring(placeId)]
 
 if entry then
     print("[v53k Loader] â Matched: " .. entry.name)
