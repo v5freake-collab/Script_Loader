@@ -109,13 +109,18 @@ local scripts = {
         name = "Deadzone Classic",
         url  = "https://raw.githubusercontent.com/v5freake-collab/deadzone-classic/refs/heads/main/deadzone%20classic"
     },
-    ["116294134389652"] = {
+    [116294134389652] = {
         name = "Moon Incremental",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Moon_Incremental/refs/heads/main/Moon_Incremental"
     },
     [3623096087] = {
         name = "Muscle Legends",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Muscle-Legends/refs/heads/main/Muscle%20Legends"
+    },
+    -- NEW: Anime Ghost
+    [101640913672688] = {
+        name = "Anime Ghost",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/Anime-Ghost/refs/heads/main/Anime%20Ghost"
     },
 }
 
