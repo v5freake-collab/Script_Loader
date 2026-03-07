@@ -117,10 +117,13 @@ local scripts = {
         name = "Muscle Legends",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Muscle-Legends/refs/heads/main/Muscle%20Legends"
     },
-    -- NEW: Anime Ghost
     [101640913672688] = {
         name = "Anime Ghost",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Anime-Ghost/refs/heads/main/Anime%20Ghost"
+    },
+    [107803000984020] = {
+        name = "Epic Rarities",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/Epic-Rarities/refs/heads/main/Epic_V53K"
     },
 }
 
