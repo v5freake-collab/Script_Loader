@@ -125,6 +125,10 @@ local scripts = {
         name = "Epic Rarities",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Epic-Rarities/refs/heads/main/Epic_V53K"
     },
+    [90738171169572] = {
+        name = "Anime Tactical Simulator",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/AnimeTacticalSimulator/refs/heads/main/AnimeTactical"
+    },
 }
 
 local placeId = game.PlaceId
