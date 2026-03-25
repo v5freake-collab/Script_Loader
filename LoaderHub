@@ -129,6 +129,10 @@ local scripts = {
         name = "Anime Tactical Simulator",
         url  = "https://raw.githubusercontent.com/v5freake-collab/AnimeTacticalSimulator/refs/heads/main/AnimeTactical"
     },
+    [110626257954132] = {
+        name = "Dice Rolling Incremental",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/Dice-Rolling-Incremental/refs/heads/main/Dice%20Rolling%20Inc"
+    },
 }
 
 local placeId = game.PlaceId
