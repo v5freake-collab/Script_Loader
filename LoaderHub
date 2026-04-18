@@ -132,6 +132,11 @@ local scripts = {
     [110626257954132] = {
         name = "Dice Rolling Incremental",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Dice-Rolling-Incremental/refs/heads/main/Dice%20Rolling%20Inc"
+
+    },
+    [13020029200] = {
+        name = "Cool Rarities",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/CoolRarities/refs/heads/main/Script"
     },
 }
 
