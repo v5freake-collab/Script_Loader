@@ -141,6 +141,10 @@ local scripts = {
         name = "Slime RNG",
         url  = "https://raw.githubusercontent.com/v5freake-collab/Slime-rng/refs/heads/main/SlimeRNG_obfuscated.lua"
     },
+    [3203685552] = {
+        name = "BEAR Alpha",
+        url  = "https://raw.githubusercontent.com/v5freake-collab/BEAR_alpha/refs/heads/main/bearalphaload"
+    },
 }
 
 local placeId = game.PlaceId
